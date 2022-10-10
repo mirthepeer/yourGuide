@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 4.5px;
+}
+
+
+
+.container{
+    margin: 0 auto;
+    width: 60%;
+    padding: 160px 120px;
+}
+
+section{
+    background-color: #F1FAEE; 
+}
+
+.hero{
+   
+   
+    text-shadow: 0px 0px 50px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+}
+header{
+    background-image:url("https://images.unsplash.com/photo-1617128072203-310a93722ad8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3937&q=80");
+    background-size: cover;
+}
+
+#heading{
+    background-color: #884321;
+    color: #fafafa;
+    padding: 5px 10px;
+}
+
+#hero-detail{
+    background-color: #AA9572;  
+    color: #fafafa;  
+    padding: 5px 10px
+
+}
+
+#img1, #img2, #img3 {
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 20px;
+
+}
+
+.activities{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.activities-type{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgs{
+    margin-left: 40px;
+    padding: 20px 20px;
+    width: 250px;
+}
+
+.guide{
+    color:#fafafa;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #48422B;
+    width: 55%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 23px 15px;
+    border-bottom: 8px solid whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 8px;
+    font-weight: bold;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 0;
+}
+
+a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+    
+section.lastsec{
+    background-image: url(https://media.giphy.com/media/KAusbzs6HmxQyI1CSc/giphy.gif);
+    background-size: cover;
+}
