@@ -19,6 +19,16 @@ img{
     border-radius: 4.5px;
 }
 
+.locations{
+    background-color: #585D25;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5px 10px;
+    color: #fafafa;
+    margin-top: 8px;
+}
+
 
 
 .container{
@@ -74,6 +84,10 @@ header{
    
 }
 
+#explore:hover{
+    background-color: #3d3f1c;
+}
+
 
 .activities-type{
     display: flex;
@@ -83,7 +97,7 @@ header{
 .imgs{
     margin-left: 40px;
     padding: 20px 20px;
-    width: 250px;
+    width: 260px;
 }
 
 .guide{
@@ -100,8 +114,8 @@ header{
 
 a{
     text-decoration: none;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     padding: 12px 10px;
     font-weight: bold;
     border-radius: 8px;
@@ -109,9 +123,16 @@ a{
     margin: 0;
 }
 
+.btn{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    background-color: #585D25;
+    color: whitesmoke;
+}
+
 a:hover{
-    background-color: whitesmoke;
-    color: black;
+    background-color: black;
+    color: white;
 }
     
 section.lastsec{
