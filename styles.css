@@ -14,7 +14,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 img{
-    width: 100px;
+    width: 150px;
     border: 1px solid black;
     border-radius: 4.5px;
 }
@@ -102,7 +102,7 @@ a{
     text-decoration: none;
     color: white;
     background-color: black;
-    padding: 5px 8px;
+    padding: 12px 10px;
     font-weight: bold;
     border-radius: 8px;
     display: inline-block;
@@ -117,4 +117,9 @@ a:hover{
 section.lastsec{
     background-image: url(https://media.giphy.com/media/KAusbzs6HmxQyI1CSc/giphy.gif);
     background-size: cover;
+}
+
+span{
+    font-style: italic;
+    font-weight: bold;
 }
